@@ -8,5 +8,17 @@
 
 
 .btn{
-  @apply bg-blue-500 hover:bg-blue-700 text-white text-2xl font-bold py-3 px-8 md:px-10 border  rounded;
+  @apply bg-blue-500 hover:bg-blue-700 text-white text-2xl font-bold py-3 px-8 md:px-10 border  rounded-md;
+}
+
+.tools{
+  @apply flex flex-col items-center;
+}
+
+.tools-text{
+  @apply md:text-xl font-semibold;
+}
+
+.icon-size{
+  @apply h-[80px] w-[80px] md:h-[100px] md:w-[100px] object-cover;
 }
