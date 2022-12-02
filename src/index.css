@@ -6,7 +6,6 @@
 
 
 
-
 .btn{
   @apply bg-blue-500 hover:bg-blue-700 text-white text-2xl font-bold py-3 px-8 md:px-10 border  rounded-md;
 }
@@ -21,4 +20,15 @@
 
 .icon-size{
   @apply h-[80px] w-[80px] md:h-[100px] md:w-[100px] object-cover;
+}
+
+
+.form-input {
+  @apply shadow appearance-none border rounded w-full py-2.5 bg-gray-50 px-3 md:text-lg lg:text-xl text-gray-700 leading-tight focus:ring-blue-500 focus:outline-none  focus:shadow;
+}
+
+
+
+.textBox{
+  @apply block p-2.5 w-full md:text-lg lg:text-xl text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 focus:outline-none;
 }

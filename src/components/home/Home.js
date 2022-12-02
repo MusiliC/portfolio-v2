@@ -1,4 +1,5 @@
 import React from "react";
+import { BsGithub } from "react-icons/bs";
 import { Link } from "react-router-dom";
 import "./home.css";
 
@@ -7,7 +8,7 @@ export const Home = () => {
     <div>
       {/* landing page */}
       <section id="landing " className="bg-gray-50 ">
-        <div className="container mx-auto  md:flex py-14 lg:py-20  md:h-[60vh] lg:h-[90vh] md:space-x-8">
+        <div className="container mx-auto  md:flex py-14 lg:py-20   md:h-[60vh] lg:h-[90vh] md:space-x-8">
           {/* main introduction */}
           <div className="w-full  md:pt-6 lg:pt-10 md:w-1/2  ">
             <h2 className="text-4xl lg:text-6xl px-4 font-bold drop-shadow-md">
@@ -31,9 +32,16 @@ export const Home = () => {
               <Link to={"/contact"}>
                 <button className="btn">Hire Me</button>
               </Link>
-              <Link>
-                <button className="btn">Github</button>
-              </Link>
+              <a
+                href="http://github.com/MusiliC/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className="btn flex items-center space-x-2">
+                  <BsGithub size={30} />
+                  <p>Github</p>
+                </button>
+              </a>
             </div>
           </div>
 
@@ -109,7 +117,7 @@ export const Home = () => {
       {/* services */}
 
       <section id="services" className="bg-zinc-50">
-        <div className="container mx-auto py-16">
+        <div className="container mx-auto py-16 lg:pb-32">
           <div>
             <p className="text-3xl md:text-5xl font-semibold text-center">
               Services
@@ -120,11 +128,14 @@ export const Home = () => {
           {/* tools and services */}
           <div
             id="main-container"
-            className="my-8 p-6 md:p-4   grid  md:grid-cols-2 lg:grid-cols-3 grid-rows-2 md:grid-rows-2  gap-6 "
+            className="my-8 p-6 md:p-4   grid  md:grid-cols-2 lg:grid-cols-3 grid-rows-2 md:grid-rows-3 lg:grid-rows-2  gap-6 "
           >
             {/* services */}
 
-            <div id="services" className="border-white shadow-lg rounded-md bg-white">
+            <div
+              id="services"
+              className="border-white shadow-lg rounded-md bg-white"
+            >
               <div>
                 <img
                   src="/pics/web-g413f50a65_1280.jpg"
@@ -236,7 +247,7 @@ export const Home = () => {
 
             <div
               id="services"
-              className=" lg:order-3 rounded-md border-white shadow-lg bg-white"
+              className=" lg:order-3 rounded-md  border-white shadow-lg bg-white"
             >
               <div className="">
                 <img
