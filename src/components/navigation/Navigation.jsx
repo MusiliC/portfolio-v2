@@ -21,7 +21,7 @@ const Navigation = () => {
   };
 
   return (
-    <div className="border-b-2 shadow-md   bg-gray-50  w-full ">
+    <div className=" bg-gray-50  w-full ">
       <div className=" mx-auto flex items-center justify-between py-4 md:px-10 px-7">
         <div className=" cursor-pointer flex items-center ">
           <span>
@@ -35,15 +35,12 @@ const Navigation = () => {
         <div>
           <ul className=" md:flex md:items-center hover:cursor-pointer">
             {links.map((each) => (
-              <li
-                key={each.name}
-                className="md:mx-2 lg:mx-5 font-semibold "
-              >
+              <li key={each.name} className="md:mx-2 lg:mx-5 font-semibold ">
                 <Link
                   to={each.link}
                   className="hidden md:block font-bold hover:text-blue-600 duration-500"
                   smooth={true}
-                  offset={50}
+                  offset={30}
                   duration={500}
                 >
                   {each.name}
@@ -80,17 +77,15 @@ const Navigation = () => {
           className={
             !nav
               ? "hidden"
-              : " md:hidden bg-gray-50  border-b-1 border-black shadow-md  w-full px-8"
+              : " md:hidden bg-white pt-3 rounded-lg  shadow-md mx-auto w-[95%] px-8"
           }
         >
           {links.map((each) => (
-            <li
-              key={each.name}
-              className="my-8 border-b-2  border-gray-200 w-full "
-            >
+            <li key={each.name} className="my-8  w-full ">
               <Link
                 to={each.link}
-              
+                smooth={true}
+                offset={-280}
                 duration={500}
                 className="font-bold    text-gray-600 hover:text-blue-600 duration-500"
                 onClick={handleClose}
@@ -100,15 +95,12 @@ const Navigation = () => {
             </li>
           ))}
           <div>
-            <Link
-              to={"contact"}
-           
-              duration={500}
-              onClick={handleClose}
-            >
-              <button className="mb-4 bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-5 border border-blue-500 hover:border-transparent rounded">
-                CONTACT ME
-              </button>
+            <Link to={"contact"} smooth={true} offset={10} duration={500}>
+              <a href="Resume.pdf" target="_blank" rel="noopener noreferrer">
+                <button className="mb-4 bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-5 border border-blue-500 hover:border-transparent rounded">
+                  CONTACT ME
+                </button>
+              </a>
             </Link>
           </div>
         </ul>

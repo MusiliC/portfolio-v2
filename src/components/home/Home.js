@@ -37,7 +37,7 @@ export const Home = () => {
                 to={"contact"}
                 className="hidden md:block font-bold hover:text-blue-600 duration-500"
                 smooth="true"
-                offset={50}
+                offset={30}
                 duration={500}
               >
                 <button className="btn">Hire Me</button>
