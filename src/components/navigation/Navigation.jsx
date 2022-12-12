@@ -27,7 +27,7 @@ const Navigation = () => {
           <span>
             <HiOutlineCode color="blue" size={40} className="mr-1" />
           </span>
-          <p className="text-3xl text-gray-600 font-semibold mr-2 ">
+          <p className="text-2xl text-gray-600 font-semibold mr-2 ">
             MUSILI
             <span className="text-blue-600">.</span>
           </p>
@@ -55,7 +55,7 @@ const Navigation = () => {
 
         <div>
           <Link to="contact" smooth={true} offset={5} duration={500}>
-            <button className="hidden  md:block bg-transparent hover:bg-blue-500 text-blue-700 font-bold hover:text-white py-3 px-5 border border-blue-500 hover:border-transparent rounded">
+            <button className="hidden  md:block bg-transparent hover:bg-blue-500 text-blue-700 font-bold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
               <span> CONTACT ME</span>
             </button>
           </Link>
@@ -106,7 +106,7 @@ const Navigation = () => {
               duration={500}
               onClick={handleClose}
             >
-              <button className="mb-4 bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-3 px-5 border border-blue-500 hover:border-transparent rounded">
+              <button className="mb-4 bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-5 border border-blue-500 hover:border-transparent rounded">
                 CONTACT ME
               </button>
             </Link>

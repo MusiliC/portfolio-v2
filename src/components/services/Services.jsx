@@ -1,11 +1,11 @@
-import React from 'react'
+import React from "react";
 
 const Services = () => {
   return (
     <section name="services" id="services" className="bg-zinc-50">
-      <div className="container mx-auto py-16 lg:pb-32">
+      <div className="container mx-auto py-10 lg:pb-32">
         <div>
-          <p className="text-3xl md:text-5xl font-semibold text-center">
+          <p className="text-3xl md:text-4xl font-semibold text-center">
             Services
           </p>
         </div>
@@ -30,7 +30,7 @@ const Services = () => {
               />
             </div>
             <div className="">
-              <p className="text-center mt-4 font-semibold text-2xl md:text-3xl">
+              <p className="text-center my-4 md:text-xl">
                 Web Development
               </p>
             </div>
@@ -41,7 +41,7 @@ const Services = () => {
             className="border border-sky-200 shadow-lg p-3 order-3  lg:order-2 md:col-span-2 md:row-span-2  rounded-md"
           >
             <div className="mx-3">
-              <p className="text-xl text-blue-900  my-10 md:text-3xl font-semibold text-center">
+              <p className="text-xl text-blue-900  my-10 md:text-2xl font-semibold text-center">
                 Programming Languages and Tools
               </p>
             </div>
@@ -135,7 +135,7 @@ const Services = () => {
               />
             </div>
             <div className="">
-              <p className="text-center my-4 font-semibold text-2xl md:text-3xl">
+              <p className="text-center my-4 md:text-xl">
                 Responsive Web Design
               </p>
             </div>
@@ -144,6 +144,6 @@ const Services = () => {
       </div>
     </section>
   );
-}
+};
 
-export default Services
+export default Services;

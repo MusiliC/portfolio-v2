@@ -7,17 +7,17 @@ import "./home.css";
 export const Home = () => {
   return (
     <div>
-      {/* landing page */}
-      <section id="landing" name="Home" className="bg-gray-50 ">
-        <div className="container mx-auto  lg:flex py-10  lg:pt-20   md:h-[100vh] lg:h-screen md:space-x-8">
-          {/* main introduction */}
-          <div className="w-full  md:pt-2  lg:w-1/2  ">
-            <h2 className="text-4xl md:text-6xl px-4 font-bold drop-shadow-md">
+      <section id="landing" name="Home" className="bg-gray-50 py-10 lg:py-20 ">
+        <div className="container mx-auto lg:flex lg:space-x-8">
+          {/* intro */}
+          <div className="w-full  md:pt-2  lg:w-1/2 ">
+            <h2 className="text-4xl px-4 font-bold drop-shadow-md lg:text-4xl">
               Hey, I'm
-              <div className="text-5xl my-2 md:my-4 md:text-7xl lg:text-8xl">
+              <div className="text-4xl my-2 md:my-3  lg:text-5xl">
                 Brian Musili
               </div>
             </h2>
+
             <div className="w-full px-4 my-6 md:text-2xl   md:my-8 font-semibold">
               <span className="text-blue-600 text-2xl mb-4 md:text-4xl drop-shadow-md">
                 Junior Full Stack Developer
@@ -29,6 +29,9 @@ export const Home = () => {
                 structure without quitting.
               </p>
             </div>
+
+            {/* buttons */}
+
             <div className="flex px-2 my-6  w-full justify-between flex-wrap ">
               <Link to={"/contact"}>
                 <button className="btn">Hire Me</button>
@@ -47,10 +50,11 @@ export const Home = () => {
           </div>
 
           {/* image */}
-          <div className="w-full  px-2 h-[370px] md:h-[70%] lg:h-[80%] lg:w-1/2 ">
+
+          <div className="w-full lg:w-1/2 ">
             <img
               src="/pics/interface-gad897d0ae_1280.png"
-              className="object-cover h-full md:mt-7 lg:mt-0   mx-auto md:w-[70%] md:h-[70%] lg:h-full lg:w-[80%] rounded-full"
+              className="mx-auto h-[330px] w-[330px] object-cover rounded-full md:h-[400px] md:w-[400px] lg:h-[480px] lg:w-[480px]"
               alt=""
             />
           </div>
