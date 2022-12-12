@@ -6,12 +6,12 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <section className="bg-gray-600 ">
+    <section className="bg-gray-600 px-3">
       <hr />
-      <div className="flex flex-col lg:flex-row justify-between space-y-10 lg:space-y-0 container mx-auto py-8">
+      <div className="flex flex-col lg:flex-row justify-between items-center space-y-10 lg:space-y-0 container mx-auto py-8">
         {/* pages */}
 
-        <div className="text-white font-bold hover:cursor-pointer text-center ">
+        <div className="text-white font-semibold hover:cursor-pointer text-center ">
           <ul>
             <li className="mb-3">
               <Link to="/"> Home</Link>
@@ -30,16 +30,16 @@ const Footer = () => {
 
         {/* contacts */}
 
-        <div className="text-white font-bold  ">
+        <div className="text-white font-semibold  ">
           <div className="mb-3 flex items-center justify-center space-x-2">
             <p>Phone</p>
             <BsFillTelephoneFill size={20} />
-            <span className="mx-2 text-xl ">: +254768687334</span>
+            <span className="mx-2  ">: +254768687334</span>
           </div>
           <div className="mb-3 flex items-center justify-center space-x-2">
             <p>Email</p>
             <MdEmail size={20} />
-            <span className="mx-2 text-xl ">
+            <span className="mx-2 ">
               : musilibrian07@gmail.com
             </span>
           </div>
@@ -80,7 +80,7 @@ const Footer = () => {
 
         {/* made by */}
 
-        <div className="text-white font-bold  text-center">
+        <div className="text-white font-semibold  text-center ">
           <p className="mb-3">Privacy Policy and Terms of Use</p>
           <p className="mb-3">
             Made and Designed by

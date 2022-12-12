@@ -21,7 +21,7 @@ const Navigation = () => {
   };
 
   return (
-    <div className="border-b-2 shadow-md border-gray-200  bg-gray-50  w-full ">
+    <div className="border-b-2 shadow-md   bg-gray-50  w-full ">
       <div className=" mx-auto flex items-center justify-between py-4 md:px-10 px-7">
         <div className=" cursor-pointer flex items-center ">
           <span>
@@ -37,7 +37,7 @@ const Navigation = () => {
             {links.map((each) => (
               <li
                 key={each.name}
-                className="md:mx-2 lg:mx-5 font-semibold text-xl"
+                className="md:mx-2 lg:mx-5 font-semibold "
               >
                 <Link
                   to={each.link}
@@ -55,7 +55,7 @@ const Navigation = () => {
 
         <div>
           <Link to="contact" smooth={true} offset={5} duration={500}>
-            <button className="hidden  md:block bg-transparent hover:bg-blue-500 text-blue-700 font-bold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
+            <button className="hidden  md:block bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
               <span> CONTACT ME</span>
             </button>
           </Link>

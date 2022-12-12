@@ -34,9 +34,9 @@ const Contact = () => {
                   placeholder="email@dormain.com"
                 />
               </div>
-              <div className="mb-2 lg:mb-4">
+              <div className="mb-2 ">
                 <label
-                  className="block text-gray-700 text-md font-bold mb-1 lg:mb-2"
+                  className="block text-gray-700 text-md font-bold mb-1 "
                   htmlFor="password"
                 >
                   Subject
@@ -49,7 +49,7 @@ const Contact = () => {
                 />
               </div>
 
-              <div className="mb-4 lg:mb-6">
+              <div className="mb-2">
                 <label
                   for="message"
                   class="block mb-1 lg:mb-2 text-md font-bold  dark:text-white"

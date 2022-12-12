@@ -3,7 +3,7 @@ import React from "react";
 const Services = () => {
   return (
     <section name="services" id="services" className="bg-zinc-50">
-      <div className="container mx-auto py-10 lg:pb-32">
+      <div className="container mx-auto py-10 lg:pb-14">
         <div>
           <p className="text-3xl md:text-4xl font-semibold text-center">
             Services
@@ -41,7 +41,7 @@ const Services = () => {
             className="border border-sky-200 shadow-lg p-3 order-3  lg:order-2 md:col-span-2 md:row-span-2  rounded-md"
           >
             <div className="mx-3">
-              <p className="text-xl text-blue-900  my-10 md:text-2xl font-semibold text-center">
+              <p className="text-xl text-blue-900  my-4 md:text-2xl font-semibold text-center">
                 Programming Languages and Tools
               </p>
             </div>

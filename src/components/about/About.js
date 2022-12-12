@@ -7,9 +7,9 @@ const About = () => {
 
   return (
     <section name="About" id="about">
-      <div className=" container mx-auto lg:py-16">
+      <div className=" container mx-auto lg:py-12">
         <div>
-          <p className="text-3xl pt-10 md:text-4xl font-semibold text-center">
+          <p className="text-3xl  md:text-4xl font-semibold text-center">
             About Me
           </p>
           <div className="aboutUnderline mx-auto my-1"></div>

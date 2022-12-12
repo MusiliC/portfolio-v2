@@ -7,23 +7,23 @@ import "./home.css";
 export const Home = () => {
   return (
     <div>
-      <section id="landing" name="Home" className="bg-gray-50 py-10 lg:py-20 ">
+      <section id="landing" name="Home" className="bg-gray-50 py-10 ">
         <div className="container mx-auto lg:flex lg:space-x-8">
           {/* intro */}
           <div className="w-full  md:pt-2  lg:w-1/2 ">
             <h2 className="text-4xl px-4 font-bold drop-shadow-md lg:text-4xl">
               Hey, I'm
-              <div className="text-4xl my-2 md:my-3  lg:text-5xl">
+              <div className="text-4xl my-2 md:my-2  lg:text-5xl">
                 Brian Musili
               </div>
             </h2>
 
-            <div className="w-full px-4 my-6 md:text-2xl   md:my-8 font-semibold">
-              <span className="text-blue-600 text-2xl mb-4 md:text-4xl drop-shadow-md">
+            <div className="w-full px-4 my-3 md:text-xl   md:my-8 font-semibold">
+              <span className="text-blue-600 text-xl mb-4 md:text-3xl drop-shadow-md">
                 Junior Full Stack Developer
                 <br />
               </span>
-              <p className="mt-8">
+              <p className="mt-4">
                 My personal philosophy when it comes to programming its all
                 about doing practice frequently to master the concepts and
                 structure without quitting.
@@ -54,7 +54,7 @@ export const Home = () => {
           <div className="w-full lg:w-1/2 ">
             <img
               src="/pics/interface-gad897d0ae_1280.png"
-              className="mx-auto h-[330px] w-[330px] object-cover rounded-full md:h-[400px] md:w-[400px] lg:h-[480px] lg:w-[480px]"
+              className="mx-auto h-[330px] w-[330px] object-cover rounded-full md:h-[400px] md:w-[400px] lg:h-[450px] lg:w-[450px]"
               alt=""
             />
           </div>
