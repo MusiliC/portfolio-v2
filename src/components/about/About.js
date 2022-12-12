@@ -48,7 +48,7 @@ const About = () => {
             </p>
 
             <div className="flex  justify-between items-center  mx-auto w-[90%] mt-14 ">
-              <a href="Resume.pdf"  rel="noopener noreferrer">
+              <a href="MyResume.pdf"  rel="noopener noreferrer">
                 <button className=" bg-transparent  lg:text-xl py-2  px-4 lg:px-10 hover:bg-blue-500 text-blue-700 font-semibold hover:text-white  border border-blue-500 hover:border-transparent rounded">
                   Resume
                 </button>
