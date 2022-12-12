@@ -2,10 +2,20 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <section>
+    <section id="contact">
+      <div>
+        <p className="text-3xl pt-10 md:text-5xl font-semibold text-center">
+            Contact Me
+        </p>
+      </div>
+      <div className="aboutUnderline mx-auto my-1"></div>
       <div className="container mx-auto py-2 pb-32 md:py-8 lg:py-2 md:flex items-center">
         <div className="md:w-1/2 ">
-          <img src="/pics/social-media-marketing-g1a3447de7_1280.png" className=' w-[95%] lg:w-[90%] object-cover'  alt="" />
+          <img
+            src="/pics/social-media-marketing-g1a3447de7_1280.png"
+            className=" w-[95%] lg:w-[90%] object-cover"
+            alt=""
+          />
         </div>
         <div className="px-5 w-full  md:px-0 md:w-[48%] mx-auto lg:w-1/2 ">
           <div className="w-full ">

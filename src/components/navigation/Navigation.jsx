@@ -1,16 +1,15 @@
 import React, { useState } from "react";
+import { Link, AnimateScroll as scroll } from "react-scroll";
 import { HiMenu, HiOutlineCode } from "react-icons/hi";
 import { TbLetterX } from "react-icons/tb";
-import { Link } from "react-router-dom";
 
 const Navigation = () => {
   const [nav, setNav] = useState(false);
 
   let links = [
     { name: "Home", link: "/" },
-    { name: "About", link: "/about" },
-    { name: "Services", link: "/services" },
-    { name: "Projects", link: "/projects" },
+    { name: "About", link: "About" },
+    { name: "Services", link: "services" },
   ];
 
   const handleClick = () => {
@@ -34,12 +33,18 @@ const Navigation = () => {
           </p>
         </div>
         <div>
-          <ul className=" md:flex md:items-center">
+          <ul className=" md:flex md:items-center hover:cursor-pointer">
             {links.map((each) => (
-              <li key={each.name} className="md:mx-2 lg:mx-5 font-semibold text-xl">
+              <li
+                key={each.name}
+                className="md:mx-2 lg:mx-5 font-semibold text-xl"
+              >
                 <Link
                   to={each.link}
                   className="hidden md:block font-bold hover:text-blue-600 duration-500"
+                  smooth={true}
+                  offset={50}
+                  duration={500}
                 >
                   {each.name}
                 </Link>
@@ -49,7 +54,7 @@ const Navigation = () => {
         </div>
 
         <div>
-          <Link to="/contact">
+          <Link to="contact" smooth={true} offset={5} duration={500}>
             <button className="hidden  md:block bg-transparent hover:bg-blue-500 text-blue-700 font-bold hover:text-white py-3 px-5 border border-blue-500 hover:border-transparent rounded">
               <span> CONTACT ME</span>
             </button>
@@ -85,6 +90,8 @@ const Navigation = () => {
             >
               <Link
                 to={each.link}
+              
+                duration={500}
                 className="font-bold    text-gray-600 hover:text-blue-600 duration-500"
                 onClick={handleClose}
               >
@@ -93,7 +100,12 @@ const Navigation = () => {
             </li>
           ))}
           <div>
-            <Link to={"/contact"} onClick={handleClose}>
+            <Link
+              to={"contact"}
+           
+              duration={500}
+              onClick={handleClose}
+            >
               <button className="mb-4 bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-3 px-5 border border-blue-500 hover:border-transparent rounded">
                 CONTACT ME
               </button>
