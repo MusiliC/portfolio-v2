@@ -1,9 +1,7 @@
-import React from 'react'
-
+import React from "react";
 
 const About = () => {
-
-    const handleDownload = () => {};
+ 
 
   return (
     <section name="About" id="about">
@@ -50,13 +48,13 @@ const About = () => {
             </p>
 
             <div className="flex  justify-between items-center  mx-auto w-[90%] mt-14 ">
-              <button
-                onClick={handleDownload}
-                className=" bg-transparent  lg:text-xl py-2  px-4 lg:px-10 hover:bg-blue-500 text-blue-700 font-bold hover:text-white  border border-blue-500 hover:border-transparent rounded"
-              >
-                Download CV
-              </button>
-              <button className=" bg-blue-500  lg:text-xl py-2  px-4 lg:px-10  text-white font-bold hover:text-white  border border-blue-500 hover:bg-blue-700 rounded">
+              <a href="Resume.pdf"  rel="noopener noreferrer">
+                <button className=" bg-transparent  lg:text-xl py-2  px-4 lg:px-10 hover:bg-blue-500 text-blue-700 font-semibold hover:text-white  border border-blue-500 hover:border-transparent rounded">
+                  Resume
+                </button>
+              </a>
+
+              <button className=" bg-blue-500  lg:text-xl py-2  px-4 lg:px-10  text-white font-semibold hover:text-white  border border-blue-500 hover:bg-blue-700 rounded">
                 Contact Me
               </button>
             </div>
@@ -65,6 +63,6 @@ const About = () => {
       </div>
     </section>
   );
-}
+};
 
-export default About
+export default About;

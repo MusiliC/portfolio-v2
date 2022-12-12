@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, AnimateScroll as scroll } from "react-scroll";
 import { BsGithub } from "react-icons/bs";
 
 import "./home.css";
@@ -33,7 +33,13 @@ export const Home = () => {
             {/* buttons */}
 
             <div className="flex px-2 my-6  w-full justify-between flex-wrap ">
-              <Link to={"/contact"}>
+              <Link
+                to={"contact"}
+                className="hidden md:block font-bold hover:text-blue-600 duration-500"
+                smooth="true"
+                offset={50}
+                duration={500}
+              >
                 <button className="btn">Hire Me</button>
               </Link>
               <a
@@ -42,7 +48,7 @@ export const Home = () => {
                 rel="noopener noreferrer"
               >
                 <button className="btn flex items-center space-x-2">
-                  <BsGithub size={30} />
+                  <BsGithub size={20} />
                   <p>Github</p>
                 </button>
               </a>

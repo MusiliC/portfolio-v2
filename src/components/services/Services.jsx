@@ -72,6 +72,14 @@ const Services = () => {
               </div>
               <div className="tools">
                 <img
+                  src="/pics/icons8-redux.svg"
+                  className="icon-size"
+                  alt=""
+                />
+                <p className="tools-text">Redux</p>
+              </div>
+              <div className="tools">
+                <img
                   src="/pics/icons8-mongodb.svg"
                   className="icon-size"
                   alt=""
