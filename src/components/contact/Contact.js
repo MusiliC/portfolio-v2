@@ -47,26 +47,26 @@ const Contact = () => {
         </p>
       </div>
       <div className="aboutUnderline mx-auto my-1"></div>
-      <div className="container mx-auto py-2 pb-32 md:py-8 lg:py-6 md:flex items-center">
+      <div className="container mx-auto py-2 pb-32 md:py-6 md:flex items-center">
         <div className="md:w-1/2 ">
           <img
             src="/pics/social-media-marketing-g1a3447de7_1280.png"
-            className=" w-[95%] lg:w-[450px] object-cover"
+            className=" w-[95%] lg:w-[400px] object-cover"
             alt=""
           />
         </div>
-        <div className="px-5 w-full  md:px-0 md:w-[48%] mx-auto lg:w-1/2 ">
+        <div className="px-3 w-full  md:px-0 md:w-[48%] mx-auto lg:w-1/2 ">
           <div className="w-full ">
             <form
               ref={form}
               onSubmit={sendEmail}
-              className="bg-white shadow-lg border border-gray-200  rounded px-4 pt-6 pb-8 mb-4"
+              className="bg-white shadow-lg border border-gray-200  rounded px-4 pt-4 pb-6 mb-4"
             >
               {send && <Common />}
               {error && <Error />}
-              <div className="mb-2 lg:mb-4">
+              <div className="mb-1">
                 <label
-                  className="block text-gray-700 text-md font-bold mb-1 lg:mb-2"
+                  className="block text-gray-700   mb-1"
                   htmlFor="username"
                 >
                   Email:
@@ -80,9 +80,9 @@ const Contact = () => {
                   required
                 />
               </div>
-              <div className="mb-2 ">
+              <div className="mb-1">
                 <label
-                  className="block text-gray-700 text-md font-bold mb-1 "
+                  className="block text-gray-700 mb-1 "
                   htmlFor="password"
                 >
                   Name
@@ -97,10 +97,10 @@ const Contact = () => {
                 />
               </div>
 
-              <div className="mb-2">
+              <div className="mb-1">
                 <label
                   htmlFor="message"
-                  className="block mb-1 lg:mb-2 text-md font-bold  dark:text-white"
+                  className="block mb-1    dark:text-white"
                 >
                   Your message
                 </label>
@@ -113,9 +113,9 @@ const Contact = () => {
                   required
                 ></textarea>
               </div>
-              <div className="flex items-center mt-3 w-full justify-center">
+              <div className="flex items-center mt-2 w-full justify-center">
                 <button
-                  className="bg-blue-500 w-full hover:bg-blue-700 text-white font-bold py-3 px-2 rounded-lg focus:outline-none focus:shadow-outline"
+                  className="bg-blue-500 w-full hover:bg-blue-700 text-white font-semibold py-3 px-1 rounded-lg focus:outline-none focus:shadow-outline"
                   type="submit"
                   value="Send"
                 >

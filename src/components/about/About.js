@@ -14,7 +14,7 @@ const About = () => {
           <div className="aboutUnderline mx-auto my-1"></div>
         </div>
 
-        <div className="lg:flex justify-between mt-6 md:mt-14">
+        <div className="lg:flex justify-between mt-6 md:mt-10">
           {/* picture */}
           <div className="lg:w-1/2 py-2">
             <img
@@ -37,26 +37,26 @@ const About = () => {
               built.
             </p>
             <br />
-            <p className=" mx-auto w-[90%] lg:text-xl font-semibold">
+            <p className=" mx-auto w-[90%]  font-semibold">
               <span className="font-bold">Skills: </span>
               JavaScript, React, TypeScript, Express, Node, Redux,
             </p>
 
             <br />
-            <p className=" mx-auto w-[90%] lg:text-xl font-semibold">
+            <p className=" mx-auto w-[90%] font-semibold">
               <span className="font-bold">Tools: </span>
               CSS, HTML, Git,Tailwind, Bootstrap, Mongo DB, SQL, MS server
             </p>
 
             <div className="flex  justify-between items-center  mx-auto w-[90%] mt-10 ">
               <a href="MyResume.pdf"  rel="noopener noreferrer">
-                <button className=" bg-transparent   py-2  px-4 lg:px-6 hover:bg-blue-500 text-blue-700 font-semibold hover:text-white  border border-blue-500 hover:border-transparent rounded">
+                <button className=" bg-transparent   py-2  px-4  hover:bg-blue-500 text-blue-700 font-semibold hover:text-white  border border-blue-500 hover:border-transparent rounded">
                   Resume
                 </button>
               </a>
 
             <Link to="contact" smooth={true} offset={5} duration={500}>
-              <button className=" bg-blue-500   py-2  px-4 lg:px-6  text-white font-semibold hover:text-white  border border-blue-500 hover:bg-blue-700 rounded">
+              <button className=" bg-blue-500   py-2  px-4   text-white font-semibold hover:text-white  border border-blue-500 hover:bg-blue-700 rounded">
                 Contact Me
               </button>
               </Link>

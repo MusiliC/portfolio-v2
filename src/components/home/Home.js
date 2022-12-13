@@ -60,7 +60,7 @@ export const Home = () => {
           <div className="w-full lg:w-1/2 ">
             <img
               src="/pics/interface-gad897d0ae_1280.png"
-              className="mx-auto h-[330px] w-[330px] object-cover rounded-full md:h-[400px] md:w-[400px] lg:h-[450px] lg:w-[450px]"
+              className="mx-auto h-[300px] w-[300px] object-cover rounded-full md:h-[400px] md:w-[400px] "
               alt=""
             />
           </div>

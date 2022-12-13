@@ -21,7 +21,7 @@ const Navigation = () => {
   };
 
   return (
-    <div className=" bg-gray-50  w-full ">
+    <div className=" bg-gray-50  shadow-lg  w-full ">
       <div className=" mx-auto flex items-center justify-between py-4 md:px-10 px-7">
         <div className=" cursor-pointer flex items-center ">
           <span>
@@ -52,7 +52,7 @@ const Navigation = () => {
 
         <div>
           <Link to="contact" smooth={true} offset={5} duration={500}>
-            <button className="hidden  md:block bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
+            <button className="hidden  md:block bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-2 border border-blue-500 hover:border-transparent rounded">
               <span> CONTACT ME</span>
             </button>
           </Link>
@@ -96,11 +96,11 @@ const Navigation = () => {
           ))}
           <div>
             <Link to={"contact"} smooth={true} offset={10} duration={500}>
-              <a target="_blank" rel="noopener noreferrer">
-                <button className="mb-4 bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-5 border border-blue-500 hover:border-transparent rounded">
+            
+                <button className="mb-4 bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-3 border border-blue-500 hover:border-transparent rounded">
                   CONTACT ME
                 </button>
-              </a>
+             
             </Link>
           </div>
         </ul>

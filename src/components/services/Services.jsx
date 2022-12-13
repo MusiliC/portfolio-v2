@@ -30,7 +30,7 @@ const Services = () => {
               />
             </div>
             <div className="">
-              <p className="text-center my-4 md:text-xl">
+              <p className="text-center my-4 md:text-md">
                 Web Development
               </p>
             </div>
@@ -41,7 +41,7 @@ const Services = () => {
             className="border border-sky-200 shadow-lg p-3 order-3  lg:order-2 md:col-span-2 md:row-span-2  rounded-md"
           >
             <div className="mx-3">
-              <p className=" text-blue-900  my-4 md:text-xl font-semibold text-center">
+              <p className=" text-blue-900  my-4 md:text-md font-semibold text-center">
                 Programming Languages and Tools
               </p>
             </div>
