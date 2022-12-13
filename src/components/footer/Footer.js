@@ -3,7 +3,6 @@ import { BsFillTelephoneFill, BsLinkedin, BsGithub } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
 import { Link } from "react-router-dom";
 
-
 const Footer = () => {
   return (
     <section className="bg-gray-600 px-3">
@@ -39,9 +38,7 @@ const Footer = () => {
           <div className="mb-3 flex items-center justify-center space-x-2">
             <p>Email</p>
             <MdEmail size={20} />
-            <span className="mx-2 ">
-              : musilibrian07@gmail.com
-            </span>
+            <span className="mx-2 ">: musilibrian07@gmail.com</span>
           </div>
           <div className="mb-3 flex items-center space-x-2 justify-center hover:cursor-pointer">
             <a

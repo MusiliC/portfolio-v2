@@ -5,7 +5,7 @@ const Services = () => {
     <section name="services" id="services" className="bg-zinc-50">
       <div className="container mx-auto py-10 lg:pb-14">
         <div>
-          <p className="text-3xl md:text-4xl font-semibold text-center">
+          <p className="text-xl md:text-2xl font-semibold text-center">
             Services
           </p>
         </div>
@@ -25,7 +25,7 @@ const Services = () => {
             <div>
               <img
                 src="/pics/web-g413f50a65_1280.jpg"
-                className="h-[250px] w-full object-cover"
+                className="h-[170px] rounded-md w-full object-cover"
                 alt=""
               />
             </div>
@@ -41,11 +41,11 @@ const Services = () => {
             className="border border-sky-200 shadow-lg p-3 order-3  lg:order-2 md:col-span-2 md:row-span-2  rounded-md"
           >
             <div className="mx-3">
-              <p className="text-xl text-blue-900  my-4 md:text-2xl font-semibold text-center">
+              <p className=" text-blue-900  my-4 md:text-xl font-semibold text-center">
                 Programming Languages and Tools
               </p>
             </div>
-            <div className="grid gap-4  grid-cols-3 md:grid-cols-4 grid-rows-4 ">
+            <div className="grid gap-4  grid-cols-3 md:grid-cols-4 grid-rows-3 ">
               <div className="tools">
                 <img
                   src="/pics/icons8-react.svg"
@@ -138,7 +138,7 @@ const Services = () => {
             <div className="">
               <img
                 src="/pics/web-design-g4b18c5b33_1280.jpg"
-                className="h-[250px] w-full object-cover"
+                className="h-[170px] w-full rounded-md object-cover"
                 alt=""
               />
             </div>

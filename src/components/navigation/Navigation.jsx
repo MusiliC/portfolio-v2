@@ -96,7 +96,7 @@ const Navigation = () => {
           ))}
           <div>
             <Link to={"contact"} smooth={true} offset={10} duration={500}>
-              <a href="Resume.pdf" target="_blank" rel="noopener noreferrer">
+              <a target="_blank" rel="noopener noreferrer">
                 <button className="mb-4 bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-5 border border-blue-500 hover:border-transparent rounded">
                   CONTACT ME
                 </button>

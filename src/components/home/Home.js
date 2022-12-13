@@ -19,7 +19,7 @@ export const Home = () => {
             </h2>
 
             <div className="w-full px-4 my-3 md:text-xl   md:my-8 font-semibold">
-              <span className="text-blue-600 text-xl mb-4 md:text-3xl drop-shadow-md">
+              <span className="text-blue-600 text-xl mb-4 md:text-2xl drop-shadow-md">
                 Junior Full Stack Developer
                 <br />
               </span>
