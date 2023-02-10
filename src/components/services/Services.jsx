@@ -2,7 +2,7 @@ import React from "react";
 
 const Services = () => {
   return (
-    <section name="services" id="services" className="bg-zinc-50">
+    <section name="services" id="services" className="bg-zinc-50 min-h-[80vh]">
       <div className="container mx-auto py-10 lg:pb-14">
         <div>
           <p className="text-xl md:text-2xl font-semibold text-center">
@@ -25,12 +25,12 @@ const Services = () => {
             <div>
               <img
                 src="/pics/web-g413f50a65_1280.jpg"
-                className="h-[170px] rounded-md w-full object-cover"
+                className="h-[180px]  rounded-t-md w-full object-cover"
                 alt=""
               />
             </div>
             <div className="">
-              <p className="text-center my-4 md:text-md">
+              <p className="text-center my-4 text-sm font-semibold">
                 Web Development
               </p>
             </div>
@@ -138,12 +138,12 @@ const Services = () => {
             <div className="">
               <img
                 src="/pics/web-design-g4b18c5b33_1280.jpg"
-                className="h-[170px] w-full rounded-md object-cover"
+                className="h-[180px]   w-full rounded-t-md object-cover"
                 alt=""
               />
             </div>
             <div className="">
-              <p className="text-center my-4 md:text-xl">
+              <p className="text-center my-4 text-sm font-semibold">
                 Responsive Web Design
               </p>
             </div>

@@ -40,7 +40,7 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact">
+    <section id="contact" >
       <div>
         <p className="text-xl pt-10 lg:pt-5 md:text-2xl font-semibold text-center">
           Contact Me
@@ -55,7 +55,7 @@ const Contact = () => {
             alt=""
           />
         </div>
-        <div className="px-3 w-full  md:px-0 md:w-[48%] mx-auto lg:w-1/2 ">
+        <div className="px-3 w-full  md:px-0 md:w-[45%] mx-auto  ">
           <div className="w-full ">
             <form
               ref={form}
@@ -66,7 +66,7 @@ const Contact = () => {
               {error && <Error />}
               <div className="mb-1">
                 <label
-                  className="block text-gray-700   mb-1"
+                  className="block text-sm text-gray-700   mb-1"
                   htmlFor="username"
                 >
                   Email:
@@ -82,7 +82,7 @@ const Contact = () => {
               </div>
               <div className="mb-1">
                 <label
-                  className="block text-gray-700 mb-1 "
+                  className="block text-sm text-gray-700 mb-1 "
                   htmlFor="password"
                 >
                   Name
@@ -100,7 +100,7 @@ const Contact = () => {
               <div className="mb-1">
                 <label
                   htmlFor="message"
-                  className="block mb-1    dark:text-white"
+                  className="block mb-1 text-sm dark:text-white"
                 >
                   Your message
                 </label>
@@ -115,7 +115,7 @@ const Contact = () => {
               </div>
               <div className="flex items-center mt-2 w-full justify-center">
                 <button
-                  className="bg-blue-500 w-full hover:bg-blue-700 text-white font-semibold py-3 px-1 rounded-lg focus:outline-none focus:shadow-outline"
+                  className="bg-blue-500 text-sm w-full hover:bg-blue-700 text-white font-semibold py-3 px-1 rounded-lg focus:outline-none focus:shadow-outline"
                   type="submit"
                   value="Send"
                 >
