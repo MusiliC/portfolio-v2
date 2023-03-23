@@ -40,18 +40,18 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact" >
+    <section id="contact" className="bg-zinc-50 py-3 pb-10">
       <div>
         <p className="text-xl pt-10 lg:pt-5 md:text-2xl font-semibold text-center">
           Contact Me
         </p>
       </div>
       <div className="aboutUnderline mx-auto my-1"></div>
-      <div className="container mx-auto py-2 pb-32 md:py-6 md:flex items-center">
+      <div className="container mx-auto  pb-32 md:py-6 md:flex space-y-10 items-center">
         <div className="md:w-1/2 ">
           <img
-            src="/pics/social-media-marketing-g1a3447de7_1280.png"
-            className=" w-[95%] lg:w-[400px] object-cover"
+            src="pics/development-g37fb25579_1280.png"
+            className=" mx-auto w-[90%] lg:w-[400px] object-cover"
             alt=""
           />
         </div>

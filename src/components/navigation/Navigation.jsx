@@ -81,7 +81,7 @@ const Navigation = ({ isTopOfPage }) => {
       {/* drop down */}
 
       {!aboveMediumQuery && isMenuToggled && (
-        <div className="fixed right-0 bottom-0 z-40 h-full  w-[300px] bg-gray-50 drop-shadow-lg">
+        <div className="fixed right-0 bottom-0 z-40 h-full  w-[300px] bg-white drop-shadow-lg">
           {/* close icon */}
           <div className="flex justify-end p-12">
             <button
@@ -96,7 +96,7 @@ const Navigation = ({ isTopOfPage }) => {
 
           <div className="ml-[33%] flex flex-col gap-6 text-xl">
             {links.map((each) => (
-              <li key={each.name} className="my-2  w-full ">
+              <p key={each.name} className="my-2  w-full ">
                 <Link
                   to={each.link}
                   smooth={true}
@@ -107,7 +107,7 @@ const Navigation = ({ isTopOfPage }) => {
                 >
                   {each.name}
                 </Link>
-              </li>
+              </p>
             ))}
             <div>
               <Link to={"contact"} smooth={true} offset={10} duration={500}>

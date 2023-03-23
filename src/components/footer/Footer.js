@@ -81,7 +81,7 @@ const Footer = () => {
           <p className="mb-3">Privacy Policy and Terms of Use</p>
           <p className="mb-3">
             Made and Designed by
-            <span className="text-orange-500"> @Brian Musili</span> 2022{" "}
+            <span className="text-orange-500"> @Brian Musili</span> 2023{" "}
           </p>
         </div>
       </div>
