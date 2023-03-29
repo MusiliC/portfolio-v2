@@ -13,7 +13,7 @@ const Gym = () => {
       <div className="my-6 w-[90%] mx-auto">
         <p className="text-sm">
           Gym app site made with react, typescript , react-framer-motion is a
-          complete website with great ux experience. Below is the link:
+          complete website with great ux experience. Link below:
         </p>
       </div>
       <div className="w-[90%] mx-auto md:mt-16 lg:mt-14  ">

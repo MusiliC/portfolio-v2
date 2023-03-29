@@ -1,7 +1,7 @@
 import React from "react";
 import Kusa from "./Kusa";
 import Gym from "./Gym";
-import Mern from "./Mern";
+import Dashboard from "./Dashboard";
 
 const Projects = () => {
   return (
@@ -25,7 +25,7 @@ const Projects = () => {
             <Gym />
           </div>
           <div>
-            <Mern />
+            <Dashboard/>
           </div>
         </div>
       </div>

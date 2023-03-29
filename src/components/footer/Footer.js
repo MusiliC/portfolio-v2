@@ -33,12 +33,14 @@ const Footer = () => {
           <div className="mb-3 flex items-center justify-center space-x-2">
             <p>Phone</p>
             <BsFillTelephoneFill size={20} />
-            <span className="mx-2  ">: +254768687334</span>
+            <span className="mx-2 text-orange-200 ">: +254768687334</span>
           </div>
           <div className="mb-3 flex items-center justify-center space-x-2">
             <p>Email</p>
             <MdEmail size={20} />
-            <span className="mx-2 ">: musilibrian07@gmail.com</span>
+            <span className="mx-2 text-orange-200">
+              : musilibrian07@gmail.com
+            </span>
           </div>
           <div className="mb-3 flex items-center space-x-2 justify-center hover:cursor-pointer">
             <a
@@ -81,7 +83,7 @@ const Footer = () => {
           <p className="mb-3">Privacy Policy and Terms of Use</p>
           <p className="mb-3">
             Made and Designed by
-            <span className="text-orange-500"> @Brian Musili</span> 2023{" "}
+            <span className="text-orange-200"> @Brian Musili</span> 2023{" "}
           </p>
         </div>
       </div>
